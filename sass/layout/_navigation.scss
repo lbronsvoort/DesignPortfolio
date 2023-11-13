@@ -1,0 +1,45 @@
+.navigation-header {
+    padding: 4em 0;
+    animation: .7s ease-out 0s 1 slideDown;
+    /* max-width: 80%;
+    margin: 0 auto; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    max-width: 50%;
+}
+
+.navigation-item {
+    text-decoration: none;
+    font-family: var(--primary-font);
+    color: var(--pre-hover-color);
+    font-size: .9em;
+    border: 1px solid var(--pre-hover-color);
+    padding: .6rem 1.2rem;
+    border-radius: 3rem;
+    transition: color .3s ease-in;
+}
+
+.navigation-item:hover {
+    color: var(--blue-text-color);
+    border-color: var(--blue-text-color);
+}
+
+.navigation-item:first-child {
+    margin-right: 1rem;
+}
+
+// MEDIA QUERIES
+
+// navigatie
+@media (max-width: 600px) {
+    .navigation-header {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
