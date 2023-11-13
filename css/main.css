@@ -27,6 +27,7 @@ body {
 
 .navigation-header {
     padding: 4em 0;
+    animation: .7s ease-out 0s 1 slideDown;
     /* max-width: 80%;
     margin: 0 auto; */
 }
@@ -76,12 +77,46 @@ img {
     font-size: 3.5em;
     max-width: 90%;
     margin-bottom: 27rem;
+    animation: .7s ease-out 0s 1 slideDown;
+}
+
+@keyframes slideDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .sub-text {
+    animation: .7s ease-out 0s 1 slideUp;
+    display: inline-block;
     font-weight: 400;
     font-size: 1.5em;
+    text-decoration: none;
+    transition: all ease-in .2s;
 }
+
+.sub-text:hover {
+    transform: translateY(-10px);
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 
 // MEDIA QUERIES
 
