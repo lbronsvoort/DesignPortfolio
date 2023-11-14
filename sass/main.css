@@ -68,7 +68,7 @@ nav {
 
 @media (max-width: 600px) {
   .navigation-header {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
   }
 }
@@ -120,6 +120,30 @@ footer {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+@media (max-width: 798px) {
+  .main-text {
+    font-size: 2em;
+  }
+  .sub-text {
+    font-size: 1.3em;
+  }
+}
+@media (max-width: 600px) {
+  .main-content {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 550px) {
+  .main-text {
+    margin-bottom: 20rem;
+  }
+}
+@media (max-width: 415px) {
+  .main-text {
+    font-size: 1.6em;
   }
 }
 .flex-container {
