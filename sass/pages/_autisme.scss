@@ -1,4 +1,6 @@
-
+.container {
+    width: 100%;
+}
 
 // class voor alle tekst 
 .container-text {
@@ -13,20 +15,94 @@
     line-height: 1.3em;
     font-size: 2.8em;
     margin-top: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .hero-p {
-    margin-bottom: 6rem;
     font-family: var(--primary-font);
     font-size: 1.1em;
     //color: var(--black-text);
     color: var(--text);
     line-height: 1.8em;
+    margin-bottom: 2.5rem;
+}
+
+.hero-tags {
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tag-title,
+.tag-sub {
+    font-family: var(--primary-font);
+}
+
+.tag-title {
+    color: var(--blue-text-color);
+    font-weight: 600;
+    margin-bottom: .5rem;
+}
+
+.tag-sub {
+    color: var(--text);
 }
 
 .hero-img {
     width: 100%;
-    height: 60%;
-    border-radius: 2rem;
+}
+
+// einde tot alles met de foto
+
+.content {
+    margin-top: 6rem;
+}
+
+.circle {
+    height: .6rem;
+    width: .6rem;
+    background-color: var(--blue-text-color);
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: .8rem;
+}
+
+.project-fase {
+    display: inline-block;
+    font-family: var(--primary-font);
+    color: var(--blue-text-color);
+    font-size: 1.1rem;
+    font-weight: 400;
+    border: 1px solid var(--blue-text-color);
+    padding: 1rem 1rem;
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+}
+
+.content-title {
+    font-family: var(--primary-font);
+    color: var(--blue-text-color);
+    margin-bottom: .6rem;
+    font-size: 1.3em;
+}
+
+.content-p {
+    font-family: var(--primary-font);
+    color: var(--text);
+    line-height: 1.8em;
+}
+
+.bold-span {
+    font-weight: 700;
+}
+
+.white-space {
+    margin-top: 1rem;
+}
+
+.line {
+    //border-bottom: 1px solid var(--line);
+    background-color: var(--line);
+    padding: .03rem;
+    margin: 2rem 0;
 }

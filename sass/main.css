@@ -76,6 +76,14 @@ footer {
   padding: 4em;
 }
 
+.footer-text {
+  text-align: center;
+  font-family: var(--primary-font);
+  color: var(--pre-hover-color);
+  font-size: 0.8em;
+  margin-top: 3rem;
+}
+
 .main-text,
 .sub-text {
   font-family: var(--primary-font);
@@ -226,6 +234,10 @@ footer {
     margin-top: 0.1rem;
   }
 }
+.container {
+  width: 100%;
+}
+
 .container-text {
   max-width: 70%;
   margin: 0 auto;
@@ -237,21 +249,92 @@ footer {
   line-height: 1.3em;
   font-size: 2.8em;
   margin-top: 3rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .hero-p {
-  margin-bottom: 6rem;
   font-family: var(--primary-font);
   font-size: 1.1em;
   color: var(--text);
   line-height: 1.8em;
+  margin-bottom: 2.5rem;
+}
+
+.hero-tags {
+  margin-bottom: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tag-title,
+.tag-sub {
+  font-family: var(--primary-font);
+}
+
+.tag-title {
+  color: var(--blue-text-color);
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.tag-sub {
+  color: var(--text);
 }
 
 .hero-img {
   width: 100%;
-  height: 60%;
-  border-radius: 2rem;
+}
+
+.content {
+  margin-top: 6rem;
+}
+
+.circle {
+  height: 0.6rem;
+  width: 0.6rem;
+  background-color: var(--blue-text-color);
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+}
+
+.project-fase {
+  display: inline-block;
+  font-family: var(--primary-font);
+  color: var(--blue-text-color);
+  font-size: 1.1rem;
+  font-weight: 400;
+  border: 1px solid var(--blue-text-color);
+  padding: 1rem 1rem;
+  border-radius: 3rem;
+  margin-bottom: 2rem;
+}
+
+.content-title {
+  font-family: var(--primary-font);
+  color: var(--blue-text-color);
+  margin-bottom: 0.6rem;
+  font-size: 1.3em;
+}
+
+.content-p {
+  font-family: var(--primary-font);
+  color: var(--text);
+  line-height: 1.8em;
+}
+
+.bold-span {
+  font-weight: 700;
+}
+
+.white-space {
+  margin-top: 1rem;
+}
+
+.line {
+  background-color: var(--line);
+  padding: 0.03rem;
+  margin: 2rem 0;
 }
 
 :root {
@@ -259,6 +342,7 @@ footer {
   --blue-text-color: #DD2E4B;
   --pre-hover-color: #9E8F70;
   --text: #504734;
+  --line: #D8C295;
   --primary-font: "Open Sans",
       Arial,
       Helvetica,
