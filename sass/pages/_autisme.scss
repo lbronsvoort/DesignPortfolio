@@ -1,6 +1,4 @@
-.container {
-    //border: 1px solid red;
-}
+
 
 // class voor alle tekst 
 .container-text {
@@ -23,7 +21,7 @@
     font-family: var(--primary-font);
     font-size: 1.1em;
     //color: var(--black-text);
-    color: #675B41;
+    color: var(--text);
     line-height: 1.8em;
 }
 
