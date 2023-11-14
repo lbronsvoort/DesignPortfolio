@@ -14,6 +14,22 @@ body {
   margin: 0 auto;
 }
 
+.btn {
+  background-color: var(--main-bg-color);
+  font-family: var(--primary-font);
+  color: var(--pre-hover-color);
+  font-size: 0.9rem;
+  border: 1px solid var(--pre-hover-color);
+  border-radius: 3rem;
+  padding: 0.6rem 1.2rem;
+}
+
+.fixed-btn {
+  position: fixed;
+  bottom: 3rem;
+  right: 3.5rem;
+}
+
 .navigation-header {
   padding: 4em 0;
   animation: 0.7s ease-out 0s 1 slideDown;

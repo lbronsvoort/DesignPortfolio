@@ -1,0 +1,15 @@
+.btn {
+    background-color: var(--main-bg-color);
+    font-family: var(--primary-font);
+    color: var(--pre-hover-color);
+    font-size: .9rem;
+    border: 1px solid var(--pre-hover-color);
+    border-radius: 3rem;
+    padding: .6rem 1.2rem;
+}
+
+.fixed-btn {
+    position: fixed;
+    bottom: 3rem;
+    right: 3.5rem;
+}
