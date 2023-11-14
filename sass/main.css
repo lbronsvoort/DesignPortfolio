@@ -106,26 +106,34 @@ footer {
     transform: translateY(0);
   }
 }
-main {
-  border: 1px solid red;
-}
-
 .row {
   display: flex;
   gap: 2rem;
 }
 
 .row-margin {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .col {
-  border: 1px solid green;
   width: 100%;
 }
 
 .img-project {
   width: 100%;
+  border-radius: 0.8rem;
+}
+
+.col-a {
+  text-decoration: none;
+}
+
+.col-title {
+  font-family: var(--primary-font);
+  color: var(--pre-hover-color);
+  font-weight: 300;
+  font-size: 1.2em;
+  margin-top: 0.8rem;
 }
 
 @media (max-width: 1024px) {
