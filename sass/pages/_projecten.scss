@@ -1,0 +1,48 @@
+// main {
+//     border: 1px solid red;
+// }
+
+// .flex-container {
+//     display: flex;
+// }
+
+// .col {
+//     border: 1px solid green;
+// }
+
+// .grid-title {
+//     font-family: var(--primary-font);
+//     color: var(--blue-text-color);
+// }
+
+main {
+    border: 1px solid red;
+}
+
+.row {
+    display: flex;
+    gap: 2rem;
+}
+
+.row-margin {
+    margin-bottom: 2rem;
+}
+
+.col {
+    border: 1px solid green;
+    width: 100%;
+}
+
+.img-project {
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .row {
+        display: block;
+    }
+
+    .col:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+}
