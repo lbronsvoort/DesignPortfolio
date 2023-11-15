@@ -234,6 +234,10 @@ footer {
     margin-top: 0.1rem;
   }
 }
+.margin-top-bg {
+  margin-top: 6rem;
+}
+
 .container {
   width: 100%;
 }
@@ -289,6 +293,13 @@ footer {
   margin-top: 6rem;
 }
 
+.project {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
 .circle {
   height: 0.6rem;
   width: 0.6rem;
@@ -307,7 +318,11 @@ footer {
   border: 1px solid var(--blue-text-color);
   padding: 1rem 1rem;
   border-radius: 3rem;
-  margin-bottom: 2rem;
+}
+
+.project-tags {
+  font-family: var(--primary-font);
+  color: var(--pre-hover-color);
 }
 
 .content-title {
@@ -334,7 +349,54 @@ footer {
 .line {
   background-color: var(--line);
   padding: 0.03rem;
-  margin: 2rem 0;
+  margin: 3rem 0;
+}
+
+.img-quotes {
+  max-width: 60%;
+  display: block;
+  margin: 3rem auto;
+}
+
+.img-empathy {
+  max-width: 100%;
+  display: block;
+  margin: 3rem auto;
+}
+
+.img-primaire,
+.img-secondaire {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.img-primaire {
+  margin-top: 3rem;
+}
+
+.img-title {
+  margin: 1.5rem 0 2.5rem 0;
+  text-align: center;
+  font-family: var(--primary-font);
+  color: var(--pre-hover-color);
+  font-size: 0.9em;
+}
+
+.img-userjourney {
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.img-userstories {
+  max-width: 70%;
+  display: block;
+  margin: auto;
+}
+
+.img-margin {
+  margin-top: 3rem;
 }
 
 :root {
