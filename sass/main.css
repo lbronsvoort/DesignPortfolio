@@ -273,6 +273,7 @@ footer {
 .tag-title,
 .tag-sub {
   font-family: var(--primary-font);
+  line-height: 1.8em;
 }
 
 .tag-title {
@@ -323,6 +324,7 @@ footer {
 .project-tags {
   font-family: var(--primary-font);
   color: var(--pre-hover-color);
+  line-height: 1.8em;
 }
 
 .content-title {
@@ -399,6 +401,65 @@ footer {
   margin-top: 3rem;
 }
 
+@media (max-width: 1200px) {
+  .container-text {
+    max-width: 90%;
+  }
+}
+@media (max-width: 1078px) {
+  .container-text {
+    max-width: 100%;
+  }
+}
+@media (max-width: 900px) {
+  .project {
+    display: block;
+  }
+  .project-fase:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+}
+@media (max-width: 800px) {
+  .hero-text {
+    font-size: 2em;
+  }
+  .hero-p,
+  .tag-title,
+  .tag-sub {
+    font-size: 1em;
+  }
+}
+@media (max-width: 770px) {
+  .tag-title,
+  .tag-sub {
+    font-size: 1em;
+  }
+  .hero-tags {
+    display: block;
+  }
+  .hero-left {
+    margin-bottom: 2.5rem;
+  }
+}
+@media (max-width: 575px) {
+  .hero-tags {
+    margin-bottom: 4rem;
+  }
+  .content {
+    margin-top: 4rem;
+  }
+  .margin-top-bg {
+    margin-top: 4rem;
+  }
+  .project {
+    margin-bottom: 2.5rem;
+  }
+}
+@media (max-width: 475px) {
+  .hero-text {
+    font-size: 1.8em;
+  }
+}
 :root {
   --main-bg-color: #F9E5BC;
   --blue-text-color: #DD2E4B;
