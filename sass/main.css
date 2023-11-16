@@ -482,6 +482,24 @@ footer {
   margin: 3rem auto 0rem;
 }
 
+.sub-title {
+  font-family: var(--primary-font);
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+li {
+  font-family: var(--primary-font);
+  color: var(--text);
+  line-height: 1.8em;
+  margin-left: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.ul-space {
+  margin-top: 2rem;
+}
+
 :root {
   --main-bg-color: #F9E5BC;
   --blue-text-color: #DD2E4B;

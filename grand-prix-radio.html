@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Prix Radio UX audit</title>
+    <link rel="stylesheet" href="sass/main.css">
+</head>
+<body>
+    <header class="navigation-header">
+        <nav>
+            <div class="logo-container">
+                <a href="index.html"><img class="logo" src="images/letter-l.png" alt="Logo"></a>
+            </div>
+            <div class="navigation-items">
+                <a class="navigation-item" href="projecten.html">Mijn projecten</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="hero-text container-text">Grand Prix Radio</h1>
+        <p class="hero-p container-text">Toen Viaplay de rechten voor de Formule 1 opkocht, moesten we in Nederland afscheid nemen van het commentaar van Olav
+        Mol. Dit heeft niet lang geduurd aangezien Olav Mol een app had ontwikkeld waarmee je toch naar hem kan luisteren
+        tijdens de race weekenden. Echter liep ik tijdens het gebruik van deze app tegen een paar pijnpunten aan.
+    Om inzicht te krijgen in de huidige functionaliteiten van de website besloot ik een UX audit uit te voeren. Deze audit
+    bestaat uit een <span class="bold-span">heuristieken- en accessibility evaluatie, de huidige sitemap en een usability test van de huidige
+    website en app.</span></p>
+
+        <div class="hero-tags container-text">
+            <div class="hero-left">
+                <p class="tag-title">Mijn rol</p>
+                <p class="tag-sub">Dit is een eigen project, alle activiteiten zijn door mij uitgevoerd.</p>
+            </div>
+        </div>
+
+        <img src="images/Grand prix radio cover.png" class="hero-img" alt="Afbeelding van het project">
+
+        <div class="content container-text">
+            <h2 class="content-title">Heuristieken evaluatie</h2>
+            <p class="content-p">Tijdens dit onderzoek heb ik onderscheid gemaakt tussen de website en de app, aangezien ze niet dezelfde features en
+            functionaliteit hebben. De belangrijkste bevindingen vat ik hieronder samen.</p>
+
+            <img src="images/Heuristieken evaluatie.png" alt="Afbeelding van de heuristieken evaluatie" class="img-desktop">
+            <p class="img-title">Afbeelding van de heuristieken evaluatie</p>
+
+            <h3 class="sub-title">Website</h3>
+            <ul>
+                <li>De website is <span class="bold-span">niet intuïtief</span>, de pagina's hebben geen duidelijk doel. Ze zijn meer een verzameling van alle content die
+                op de website te vinden is. Hierdoor voelt het erg chaotisch.</li>
+
+                <li>Op dit moment is de snelste manier om erachter te komen wat buttons zijn door je muis over de pagina te bewegen. <span class="bold-span">Een
+                groot deel van de buttons lijken namelijk op headings en ze hebben niet allemaal een hover-state.</span></li>
+
+                <li>De website bevat <span class="bold-span">geen (succes)meldingen.</span> De foutmeldingen die er wel zijn zitten in het contactformulier. Echter vallen
+                deze niet op. Ze zien er hetzelfde uit als de rest van de tekst. Wanneer ik mijn e-mailadres invul om mij aan te melden
+                voor de nieuwsbrief en op verzenden klik krijg ik geen succes- of foutmelding te zien. Ik weet nu niet of het gelukt is.</li>
+            </ul>
+
+            <h3 class="sub-title ul-space">App</h3>
+            <ul>
+                <li>Wat opvalt in het <span class="bold-span">icoon gebruik</span> is dat hier geen duidelijke richtlijnen in zijn. Het ene icoon ziet er heel
+                minimalistisch uit en de ander weer heel gedetailleerd. Ook komt de lijndikte van de iconen niet overeen.</li>
+
+                <li>Het duurt een poosje voordat de podcast begint met afspelen wanneer je op de play knop hebt gedrukt. Niet ontzettend
+                lang, maar wel lang genoeg om je af te vragen <span class="bold-span">'gaat dit wel goed?', 'het werkt niet'.</span> Maar dan doet hij het ineens en
+                besef je dat hij aan het laden was. Echter wordt dit niet gecommuniceerd, waardoor de gebruiker in onzekerheid zit.</li>
+
+                <li>Onder in de navigatie wordt aangegeven op welke pagina je zit door middel van een blauwe balk. Deze valt echter niet
+                heel erg op doordat het een kleine balk onderaan je scherm is. Als je een iPhone hebt overlapt deze ook bijna met je
+                balk die standaard op elk scherm zit om terug te gaan naar je home screen.</li>
+            </ul>
+
+            <div class="line"></div>
+
+            <h2 class="content-title">Accessibility evaluatie</h2>
+            <p class="content-p">De volgende stap in deze UX audit was het onderzoek doen naar eventuele toegankelijkheidsproblemen. Ook over deze
+            evaluatie ga ik een korte samenvatting geven.</p>
+
+            <img src="images/Accessibility.png" alt="Afbeelding van de accessibility evaluatie" class="img-desktop">
+            <p class="img-title">Afbeelding van de accessibility evaluatie</p>
+
+            <h3 class="sub-title">Inzichten</h3>
+            <ul>
+                <li>Het is mogelijk om met je <span class="bold-span">tab toets</span> door de website te navigeren, maar het is geen prettige ervaring. Je hebt geen idee
+                waar je bent doordat er bijna geen focus states zijn en je doorloopt de website op een rare manier. Als je het menu
+                opent komt die over je hele scherm te staan, maar hier kun je niet in navigeren met de tab toets.</li>
+
+                <li>Er wordt gebruik gemaakt van twee soorten fonts op de website: Roboto en Disctrict. <span class="bold-span">De eerste is goed leesbaar maar
+                District minder.</span> De tekst is niet geoptimaliseerd om te scannen doordat er sprake is van een <span class="bold-span">wall of text.</span> De titels van
+                de pagina's zijn lang en er zitten veel overeenkomsten tussen. Daarnaast zijn de artikelen niet fijn te lezen door de
+                grote hoeveelheid tekst en de gekozen line-height.</li>
+
+                <li><span class="bold-span">De headings op de website zijn niet duidelijk.</span> Sommigen vallen niet op doordat ze niet links zijn uitgelijnd. Ook lopen
+                de heading tags niet op volgorde van h1 naar h6. Er zijn veel contrast problemen en de website heeft geen simpele en
+                duidelijke layout</li>
+            </ul>
+
+            <div class="line"></div>
+
+            <h2 class="content-title">Sitemap</h2>
+            <p class="content-p">Hieronder is een deel van de sitemap te zien van Grand Prix Radio, waarbij 0.0 de home pagina is. De rest is de hoofd
+            navigatie. Wanneer je daarop klikt kom je op een pagina met onderstaande content. Deze pagina's bestaan uit allemaal
+            linkjes naar andere pagina's die weer onder dat deel van de navigatie horen.</p>
+
+            <p class="content-p white-space">De sitemap is echt gigantisch, daarom is hier een klein deel te zien.</p>
+
+            <img src="images/Sitemap.png" alt="Afbeelding van de sitemap" class="img-desktop">
+
+            <div class="line"></div>
+
+            <h2 class="content-title">Usability test</h2>
+            <p class="content-p">Het doel van deze test was om feedback te vergaren over de <span class="bold-span">(visuele) hiërarchie</span> van de huidige website. En om mijn
+            hypothese te verifiëren, namelijk dat er sprake is van <span class="bold-span">information overload</span> onder de participanten.</p>
+
+            <p class="content-p white-space">In het eerste gedeelte van de testsessie is er gebruik gemaakt van <span class="bold-span">‘The Five Second Test’</span>methode in combinatie met een
+            aantal vragen. Hierna moesten de participanten een aantal activiteiten uitvoeren; <span class="bol-span">task scenario's.</span>
+            Tijdens het uitvoeren van de task scenario’s werd aan de participanten gevraagd om hardop na te denken, oftewel de
+            methode <span class="bold-span">'Thinking Out Loud'.</span></p>
+
+            <p class="content-p white-space">Er hebben <span class="bold-span">7 mensen</span> meegedaan aan deze sessie. Allemaal hebben ze affiniteit met Formule 1 of autosport. 3 van de 7
+            mensen waren vrouwen en 4 mannen.</p>
+
+            <p class="content-p white-space">Hieronder is het rapport te zien van de usability test.</p>
+
+            <img src="images/test.png" alt="Afbeelding van de usability test" class="img-desktop">
+
+            <img src="images/quotes.png" alt="Afbeelding van quotes uit de testsessie" class="img-desktop">
+            <p class="img-title">Een paar quotes uit de testsessie</p>
+
+            <div class="line"></div>
+
+            <h2 class="content-title">Aanbevelingen</h2>
+            <p class="content-p">Aan de hand van de resultaten van alle onderzoeken, heb ik een aantal aanbevelingen opgesteld. Deze zijn hieronder te
+            lezen.</p>
+
+            <img src="images/aanbevelingen.png" alt="Afbeelding van de aanbevelingen" class="img-desktop">
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="footer-text">Portfolio van Lieke Bronsvoort</p>
+    </footer>
+
+</body>
+</html>
